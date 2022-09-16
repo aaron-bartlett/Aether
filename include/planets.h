@@ -70,7 +70,7 @@ class Planets {
     float dipole_strength;
     float dipole_rotation;
     float dipole_tilt;
-    std::vector<float> dipole_center( 3, 0.0 );
+    std::vector<float> dipole_center{ 0.0, 0.0, 0.0 };
 
     // These are updated during the run:
 
